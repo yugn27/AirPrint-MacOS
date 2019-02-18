@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C00A32215F737F004F37D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C00A31215F737F004F37D5 /* AppDelegate.swift */; };
+		03C00A34215F737F004F37D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C00A33215F737F004F37D5 /* ViewController.swift */; };
+		03C00A36215F7386004F37D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C00A35215F7386004F37D5 /* Assets.xcassets */; };
+		03C00A39215F7386004F37D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C00A37215F7386004F37D5 /* Main.storyboard */; };
+		03C00A45215F7387004F37D5 /* AirPrint_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C00A44215F7387004F37D5 /* AirPrint_MacTests.swift */; };
+		03C00A50215F7387004F37D5 /* AirPrint_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C00A4F215F7387004F37D5 /* AirPrint_MacUITests.swift */; };
+		03C00A5F215F73A8004F37D5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C00A5E215F73A8004F37D5 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C00A41215F7387004F37D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C00A26215F737F004F37D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C00A2D215F737F004F37D5;
+			remoteInfo = "AirPrint Mac";
+		};
+		03C00A4C215F7387004F37D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C00A26215F737F004F37D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C00A2D215F737F004F37D5;
+			remoteInfo = "AirPrint Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C00A2E215F737F004F37D5 /* AirPrint Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirPrint Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C00A31215F737F004F37D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C00A33215F737F004F37D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C00A35215F7386004F37D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C00A38215F7386004F37D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C00A3A215F7386004F37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C00A3B215F7386004F37D5 /* AirPrint_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirPrint_Mac.entitlements; sourceTree = "<group>"; };
+		03C00A40215F7387004F37D5 /* AirPrint MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AirPrint MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C00A44215F7387004F37D5 /* AirPrint_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrint_MacTests.swift; sourceTree = "<group>"; };
+		03C00A46215F7387004F37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C00A4B215F7387004F37D5 /* AirPrint MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AirPrint MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C00A4F215F7387004F37D5 /* AirPrint_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrint_MacUITests.swift; sourceTree = "<group>"; };
+		03C00A51215F7387004F37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C00A5E215F73A8004F37D5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C00A2B215F737F004F37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00A5F215F73A8004F37D5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A3D215F7387004F37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A48215F7387004F37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C00A25215F737F004F37D5 = {
+			isa = PBXGroup;
+			children = (
+				03C00A30215F737F004F37D5 /* AirPrint Mac */,
+				03C00A43215F7387004F37D5 /* AirPrint MacTests */,
+				03C00A4E215F7387004F37D5 /* AirPrint MacUITests */,
+				03C00A2F215F737F004F37D5 /* Products */,
+				03C00A5D215F73A8004F37D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03C00A2F215F737F004F37D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C00A2E215F737F004F37D5 /* AirPrint Mac.app */,
+				03C00A40215F7387004F37D5 /* AirPrint MacTests.xctest */,
+				03C00A4B215F7387004F37D5 /* AirPrint MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C00A30215F737F004F37D5 /* AirPrint Mac */ = {
+			isa = PBXGroup;
+			children = (
+				03C00A31215F737F004F37D5 /* AppDelegate.swift */,
+				03C00A33215F737F004F37D5 /* ViewController.swift */,
+				03C00A35215F7386004F37D5 /* Assets.xcassets */,
+				03C00A37215F7386004F37D5 /* Main.storyboard */,
+				03C00A3A215F7386004F37D5 /* Info.plist */,
+				03C00A3B215F7386004F37D5 /* AirPrint_Mac.entitlements */,
+			);
+			path = "AirPrint Mac";
+			sourceTree = "<group>";
+		};
+		03C00A43215F7387004F37D5 /* AirPrint MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C00A44215F7387004F37D5 /* AirPrint_MacTests.swift */,
+				03C00A46215F7387004F37D5 /* Info.plist */,
+			);
+			path = "AirPrint MacTests";
+			sourceTree = "<group>";
+		};
+		03C00A4E215F7387004F37D5 /* AirPrint MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C00A4F215F7387004F37D5 /* AirPrint_MacUITests.swift */,
+				03C00A51215F7387004F37D5 /* Info.plist */,
+			);
+			path = "AirPrint MacUITests";
+			sourceTree = "<group>";
+		};
+		03C00A5D215F73A8004F37D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C00A5E215F73A8004F37D5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C00A2D215F737F004F37D5 /* AirPrint Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C00A54215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint Mac" */;
+			buildPhases = (
+				03C00A2A215F737F004F37D5 /* Sources */,
+				03C00A2B215F737F004F37D5 /* Frameworks */,
+				03C00A2C215F737F004F37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirPrint Mac";
+			productName = "AirPrint Mac";
+			productReference = 03C00A2E215F737F004F37D5 /* AirPrint Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C00A3F215F7387004F37D5 /* AirPrint MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C00A57215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint MacTests" */;
+			buildPhases = (
+				03C00A3C215F7387004F37D5 /* Sources */,
+				03C00A3D215F7387004F37D5 /* Frameworks */,
+				03C00A3E215F7387004F37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C00A42215F7387004F37D5 /* PBXTargetDependency */,
+			);
+			name = "AirPrint MacTests";
+			productName = "AirPrint MacTests";
+			productReference = 03C00A40215F7387004F37D5 /* AirPrint MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C00A4A215F7387004F37D5 /* AirPrint MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C00A5A215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint MacUITests" */;
+			buildPhases = (
+				03C00A47215F7387004F37D5 /* Sources */,
+				03C00A48215F7387004F37D5 /* Frameworks */,
+				03C00A49215F7387004F37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C00A4D215F7387004F37D5 /* PBXTargetDependency */,
+			);
+			name = "AirPrint MacUITests";
+			productName = "AirPrint MacUITests";
+			productReference = 03C00A4B215F7387004F37D5 /* AirPrint MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C00A26215F737F004F37D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yashn;
+				TargetAttributes = {
+					03C00A2D215F737F004F37D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03C00A3F215F7387004F37D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03C00A2D215F737F004F37D5;
+					};
+					03C00A4A215F7387004F37D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03C00A2D215F737F004F37D5;
+					};
+				};
+			};
+			buildConfigurationList = 03C00A29215F737F004F37D5 /* Build configuration list for PBXProject "AirPrint Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C00A25215F737F004F37D5;
+			productRefGroup = 03C00A2F215F737F004F37D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C00A2D215F737F004F37D5 /* AirPrint Mac */,
+				03C00A3F215F7387004F37D5 /* AirPrint MacTests */,
+				03C00A4A215F7387004F37D5 /* AirPrint MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C00A2C215F737F004F37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00A36215F7386004F37D5 /* Assets.xcassets in Resources */,
+				03C00A39215F7386004F37D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A3E215F7387004F37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A49215F7387004F37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C00A2A215F737F004F37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00A34215F737F004F37D5 /* ViewController.swift in Sources */,
+				03C00A32215F737F004F37D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A3C215F7387004F37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00A45215F7387004F37D5 /* AirPrint_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C00A47215F7387004F37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00A50215F7387004F37D5 /* AirPrint_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C00A42215F7387004F37D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C00A2D215F737F004F37D5 /* AirPrint Mac */;
+			targetProxy = 03C00A41215F7387004F37D5 /* PBXContainerItemProxy */;
+		};
+		03C00A4D215F7387004F37D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C00A2D215F737F004F37D5 /* AirPrint Mac */;
+			targetProxy = 03C00A4C215F7387004F37D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C00A37215F7386004F37D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C00A38215F7386004F37D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C00A52215F7387004F37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C00A53215F7387004F37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03C00A55215F7387004F37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AirPrint Mac/AirPrint_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		03C00A56215F7387004F37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AirPrint Mac/AirPrint_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		03C00A58215F7387004F37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPrint Mac.app/Contents/MacOS/AirPrint Mac";
+			};
+			name = Debug;
+		};
+		03C00A59215F7387004F37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPrint Mac.app/Contents/MacOS/AirPrint Mac";
+			};
+			name = Release;
+		};
+		03C00A5B215F7387004F37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "AirPrint Mac";
+			};
+			name = Debug;
+		};
+		03C00A5C215F7387004F37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AirPrint MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.raisoni.AirPrint-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "AirPrint Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C00A29215F737F004F37D5 /* Build configuration list for PBXProject "AirPrint Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00A52215F7387004F37D5 /* Debug */,
+				03C00A53215F7387004F37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C00A54215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00A55215F7387004F37D5 /* Debug */,
+				03C00A56215F7387004F37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C00A57215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00A58215F7387004F37D5 /* Debug */,
+				03C00A59215F7387004F37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C00A5A215F7387004F37D5 /* Build configuration list for PBXNativeTarget "AirPrint MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00A5B215F7387004F37D5 /* Debug */,
+				03C00A5C215F7387004F37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C00A26215F737F004F37D5 /* Project object */;
+}
